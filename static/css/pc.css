@@ -1,0 +1,209 @@
+@font-face {
+    font-family: 'SF-Ultralight';
+    src: url(Font/SFProDisplay-Ultralight.ttf);
+}
+@font-face{
+    font-family: 'SF-TextLight';
+    src: url(Font/SFProText-Light.ttf);
+}
+@font-face {
+    font-family: 'SF-Bold';
+    src:url(Font/SFProText-Bold.ttf);
+}
+@font-face {
+    font-family: 'SF-Heavy';
+    src: url(Font/SFProText-Heavy.ttf)
+}
+h1 {
+    font-family:SF-Ultralight;
+}
+h2 {
+    font-family: SF-Bold;
+}
+h3 {
+    font-family: SF-TextLight;
+}
+p {
+    color:white;
+    font-family: SF-Heavy;
+}
+#projects{
+    background:black;
+}
+.line-1{/*対象のテキスト*/
+    position: relative;
+    top: 50%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 180%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
+}
+
+
+.anim-typewriter{/*アニメーションセッティング*/
+  animation: typewriter 4s steps(44) 1s 1 normal both,
+ blinkTextCursor 500ms steps(44) infinite normal;
+}
+@keyframes typewriter{/*タイプライターライクなアニメーション*/
+  from{width: 0;}
+  to{width: 24em;}
+}
+@keyframes blinkTextCursor{/*点滅するカーソルのアニメーション*/
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+.name{
+    color: white;
+    text-align: center;
+}
+.zett-caption{
+    padding-top:10vw;
+}
+.zett{
+    color:white;
+    padding-right:10vw;
+    font-size:3vw
+}
+.zett-changes{
+    margin-top:-1.6vw;
+    font-size:1.6vw;
+    padding-right:9vw;
+}
+.target {
+  background-color: #ea3345;
+  padding: 10px;
+  transition: opacity 300ms;
+}
+.target.is-hidden {
+  opacity: 0;
+}
+
+.zett-your{
+    margin-top:-1.6vw;
+    font-size:1.5vw;
+    padding-right:12.4vw;
+}
+.try-button{
+    border-radius:2vw;
+    padding-left:3vw;
+    padding-right:3vw;
+    margin-top:-1vw;
+    height:2vw;
+    margin-right:8vw;
+    margin-bottom:5vw;
+}
+.try{
+    font-size:1vw;
+}
+.zett-life {
+    margin-top:-1.8vw;
+    font-size:2vw;
+    padding-right:12vw;
+}
+.zett-Developed{
+    margin-top:-1.4vw;
+    padding-right:7vw;
+    font-size:1.5vw;
+}
+body {
+    text-align:center;
+}
+.team{
+    font-size:5vw;
+    padding-top:3vw;
+}
+.tagit-caption{
+    padding-top:5vw;
+}
+.theme {
+    font-size:10vw;
+    padding-top:3vw;
+}
+.sub-theme{
+    font-size:2vw;
+}
+.caption{
+    padding-top:3vw;
+    font-size:4vw;
+}
+.members{
+    color: white;
+    padding-top:3vw;
+    font-size:4vw;
+    position:center;
+}
+.role{
+    font-size:3vw;
+}
+.role-name{
+    font-size:4vw;
+}
+.role-sub{
+    font-size:2vw;
+}
+.main-caption{
+    color:white;
+    padding-left:10vw;
+    font-size:3vw;
+}
+.main-body{
+    margin-top:-1vw;
+    padding-left:7vw;
+    font-size:1.3vw;
+}
+.main-body-GPS{
+    margin-top:-1.6vw;
+    padding-left:6vw;
+    font-size:2vw;
+}
+.main-body-Chase-Game{
+    margin-top:-1.3vw;
+    font-size:1.5vw;
+    padding-left:11vw;
+}
+.play{
+    font-size:1vw;
+    font-family:SF-Heavy;
+}
+.play-button{
+    border-radius:2vw;
+    padding-left:3vw;
+    padding-right:3vw;
+    margin-top:-1vw;
+    height:2vw;
+    vertical-align:center;
+    margin-left:10vw;
+}
+.effect-fade {
+　opacity : 0;
+　transform : translate(0, 45px);
+　transition : all 300ms;
+}
+
+.effect-fade.effect-scroll {
+　opacity : 1;
+　transform : translate(0, 0);
+}
+
+.text-divider {
+  display: flex;
+  align-items: center;
+  --text-divider-gap: 1rem;
+}
+.text-divider::before,
+.text-divider::after {
+  content: '';
+  height: 1px;
+  background-color: #333;
+  flex-grow: 1;
+}
+.text-divider::before {
+  margin-right: var(--text-divider-gap);
+}
+.text-divider::after {
+  margin-left: var(--text-divider-gap);
+}

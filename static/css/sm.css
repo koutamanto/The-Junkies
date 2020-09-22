@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'SF-Ultralight';
+    src: url(Font/SFProDisplay-Ultralight.ttf);
+}
+@font-face{
+    font-family: 'SF-TextLight';
+    src: url(Font/SFProText-Light.ttf);
+}
+@font-face {
+    font-family: 'SF-Bold';
+    src:url(Font/SFProText-Bold.ttf);
+}
+@font-face {
+    font-family: 'SF-Heavy';
+    src: url(Font/SFProText-Heavy.ttf)
+}
+h1 {
+    font-family:SF-Ultralight;
+}
+h2 {
+    font-family: SF-Bold;
+}
+h3 {
+    font-family: SF-TextLight;
+}
+p {
+    color:white;
+    font-family: SF-Heavy;
+}
+body {
+    text-align:center;
+}
+.theme{
+    font-size:18vw;
+}
+.sub-theme{
+    font-size:5vw;
+}
+.tagit-caption{
+    color:white;
+}
+.main-caption{
+    font-size:20vw;
+}
+.main-body{
+    font-size:8vw;
+    margin-top:-5vw;
+    padding-right:17vw;
+}
+.main-body-GPS{
+    font-size:15vw;
+    margin-top:-10vw;
+    padding-right:17vw;
+}
+.main-body-Chase-Game{
+    font-size:10vw;
+    margin-top:-10vw;
+    padding-left:15vw;
+}
+#projects{
+    background:black;
+}
+.caption{
+    font-family:SF-Bold;
+}
+.team{
+    font-size:7vw;
+}

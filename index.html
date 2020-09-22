@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="static/css/sm.css" media="screen and (max-width:600px)">
+    <link rel="stylesheet" href="static/css/pc.css" media="screen and (min-width:600px)">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script type="text/javascript" src="static/js/script.js"></script>
+    <title>The Junkies</title>
+</head>
+<body class="bg-light">
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">The Junkies</a>
+        <a class="nav-link text-light" href="join">参加する</a>
+    </nav>
+    <div style="height:45vw;">
+        <h1 class="theme" data-aos="fade-down">The Junkies</h1>
+        <h3 class="sub-theme" data-aos="fade-right">明日を創る。未来を変える。</h3>
+        <h1 class="team" data-aos="fade-up">Programming Team</h1>
+        <iframe id="popover" data-trigger="hover" src="https://www.powr.io/music-player/u/7f127082_1600684487#platform=iframe" style="width:70%;padding-bottom:0.1vw;position:sticky;bottom:0;z-index:1;" height="200px" frameborder="0"></iframe>
+    </div>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover({
+                placement : 'top',
+                trigger : 'hover'
+            });
+        });
+    </script>
+    <h3 class="caption" data-aos="fade-left">Projects</h3>
+    <div class="container-fluid" id="projects" data-aos="fade-up">
+        <div class="row">
+            <div class="col-lg-3 tagit-caption">
+                <h2 class="main-caption">Tag It</h2>
+                <p class="main-body">Modern</p>
+                <p class="main-body-GPS text-primary">GPS</p>
+                <p class="main-body-Chase-Game">Chase Game</p>
+                <button class="btn btn-primary play-button"><a href="https://cybertag.herokuapp.com"><p class="play">Play</p></a></button>
+            </div>
+            <div class="col-xl-9">
+                <img src="static/img/wolf.png" width=30% style="margin-left:5vw;margin-top:3vw;">
+                <img src="static/img/horse.png" width=30% style="margin-left:8vw;margin-top:3vw;">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h1 class="sub-theme text-light">Developed By KJunkie</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="offset-3"></div>
+            <div class="col-6">
+                <img src="static/img/logo.png" width=80%>
+            </div>
+            <div class="col-3 zett-caption">
+                <h2 class="zett">Zett</h2>
+                <p class="zett-Developed text-primary">ZeroSystem</p>
+                <p class="zett-changes">Changes</p>
+                <p class="zett-life text-success">Life</p>
+                <button class="btn btn-primary try-button"><a href="https://zerosystem.herokuapp.com"><p class="try">Try</p></a></button>
+            </div>
+        </div>
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="sub-theme text-light">Developed By Zero</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h3 class="members">Members</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1 class="role text-light text-divider">CEO</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h2 class="role-name text-info">KJunkie</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1 class="role-name text-info">Web Engineer</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <h1 class="role-name text-light">Python HTML/CSS JavaScript etc.</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <br>
+                    <h3 class="role-intro text-light">14歳の中学3年生です。The Junkiesを立ち上げました。<br>このHPの製作者です。好きな食べ物はビッグマックとPythonです。</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
